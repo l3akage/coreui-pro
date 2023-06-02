@@ -357,9 +357,6 @@
         this._createSearchInput();
         this._updateSearch();
       }
-      if (this._element.id) {
-        this._element.setAttribute('name', `multi-select-${this._element.id}`);
-      }
       this._createOptionsContainer();
       this._hideNativeSelect();
       this._updateOptionsList();
